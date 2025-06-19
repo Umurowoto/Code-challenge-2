@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Guest List Manager</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <div>
     <h1>Event Guest List Manager</h1>
-<form>
+<form id="guestForm">
     <label>Guest Name</label>
-    <input class="guestname" type="text">
-    <button onclick="addGuest()">Add Guest</button>
+    <input id="guestname" type="text">
+<button type="submit">Add Guest</button>
 </form>
-    
-<ol class="guestlist"></ol>
-
+</div>
+<ol id="guestlist"></ol>
     <script src="script.js"></script>
 </body>
 </html>
